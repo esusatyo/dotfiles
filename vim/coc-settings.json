@@ -1,8 +1,0 @@
-{
-    "coc.preferences.messageLevel": "error",
-    "codeLens.enable": true,
-    "go.goplsOptions": {
-        "usePlaceholders": true,
-        "gofumpt": true
-    }
-}

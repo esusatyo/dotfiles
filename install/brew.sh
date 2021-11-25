@@ -21,24 +21,15 @@ brew install cmake                  # cross platform build system
 brew install ctag                   # index lang objects for vim
 brew install fzf                    # fuzzy searching
 brew install htop                   # process viewer
-brew install lazygit                # UI for git
-brew install neofetch               # for unixporn
-brew install lf                     # file manager
-brew install cmatrix                # just for fun 
+brew install youtube-dl				# youtube utility
 
 echo "Installing development tools..."
 brew install git                    # keep git updated with homebrew
 brew install go                     # Go programing language
 brew install node                   # Node.js and npm
 brew install python                 # Python 3 and pip
-brew install the_silver_searcher    # code searching tool
-brew install tmux                   # terminal multiplexer
-brew install vim                    # text/code editor that rocks
 brew install zsh                    # the only shell you need
-brew install grip                   # preview github flavoured markdown
 brew install github/gh/gh           # GitHub CLI
-brew install gnupg                  # Privacy Guard
-brew install pinentry-mac           # Secure PIN entry for PGP
 
 # configuration for zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -46,15 +37,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 pip3 install pynvim                 # required for fzf.vim plugin
 
 echo "Installing casks..."
-brew cask install firefox           # internet browser
-brew cask install kitty             # terminal emulator
 brew cask install slack             # messaging client
-brew cask install spotify           # music client
 brew cask install docker 	        # *nix containers
 brew cask install 1password	        # password manager
 brew cask install dropbox           # shared files
 brew cask install aerial            # screensaver
-brew cask install wombat            # gRPC GUI client
 
 echo "Cleanup..."
 brew cleanup
