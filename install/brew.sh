@@ -42,6 +42,16 @@ brew cask install docker 	        # *nix containers
 brew cask install 1password	        # password manager
 brew cask install dropbox           # shared files
 brew cask install aerial            # screensaver
+brew cask install zoom				# zoom video conferencing
+brew cask install fork				# source control
+brew cask install sourcetree		# source control
+brew cask install istat-menus		# system monitoring app
+brew cask install textmate			# text editor
+brew cask install karabiner-elements	# keyboard customiser
+brew cask install google-drive		# client for google drive
+brew cask install visual-studio-code	# vscode
+brew cask install google-chrome		# web browser
+
 
 echo "Cleanup..."
 brew cleanup
