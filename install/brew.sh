@@ -22,6 +22,7 @@ brew install ctag                   # index lang objects for vim
 brew install fzf                    # fuzzy searching
 brew install htop                   # process viewer
 brew install youtube-dl				# youtube utility
+brew install mas					# mac app store 
 
 echo "Installing development tools..."
 brew install git                    # keep git updated with homebrew
@@ -37,7 +38,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 pip3 install pynvim                 # required for fzf.vim plugin
 
 echo "Installing casks..."
-brew cask install slack             # messaging client
 brew cask install docker 	        # *nix containers
 brew cask install 1password	        # password manager
 brew cask install dropbox           # shared files

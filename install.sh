@@ -7,6 +7,7 @@ git submodule update --init --recursive --jobs 8
 
 source ./install/link.sh
 source ./install/brew.sh
+source ./install/brew.mas.sh
 source ./install/linkdirs.sh
 source ./install/osx.sh
 source ./install/fonts.sh
