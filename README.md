@@ -1,6 +1,4 @@
-# rogchap dotfiles
-
-![screenshot](screenshot.png)
+# esusatyo dotfiles
 
 ## Usage
 
