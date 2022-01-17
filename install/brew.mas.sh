@@ -18,17 +18,17 @@ mas install 407963104   # Pixelmator
 mas install 1482454543  # Twitter
 mas install 442160987   # Flycut
 mas install 411643860   # DaisyDisk
-mas install 696977615   # Capo
 mas install 497799835   # Xcode
 mas install 1147396723  # WhatsApp
-mas install 909566003   # iHex
 mas install 409201541   # Pages
 mas install 1450874784  # Transporter
 mas install 409203825   # Numbers
 mas install 1274495053  # Microsoft To Do
-mas install 1456095438  # Filma
 mas install 430255202   # Mactracker
 
+# mas install 909566003   # iHex
+# mas install 1456095438  # Filma
+# mas install 696977615   # Capo
 # mas install 668208984   # GIPHY CAPTURE
 # mas install 504700302   # PDF Squeezer 3
 # mas install 1487333695  # Black Ink

@@ -4,7 +4,7 @@
 which -s brew
 if [[ $? != 0 ]] ; then
     echo "Homebrew not found. Installing Homebrew..."
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
     echo "Homebrew already installed. Updating..."
     brew update
@@ -38,19 +38,20 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 pip3 install pynvim                 # required for fzf.vim plugin
 
 echo "Installing casks..."
-brew cask install docker 	        # *nix containers
-brew cask install 1password	        # password manager
-brew cask install dropbox           # shared files
-brew cask install aerial            # screensaver
-brew cask install zoom				# zoom video conferencing
-brew cask install fork				# source control
-brew cask install sourcetree		# source control
-brew cask install istat-menus		# system monitoring app
-brew cask install textmate			# text editor
-brew cask install karabiner-elements	# keyboard customiser
-brew cask install google-drive		# client for google drive
-brew cask install visual-studio-code	# vscode
-brew cask install google-chrome		# web browser
+brew install cask docker 	        # *nix containers
+brew install cask 1password	        # password manager
+brew install cask dropbox           # shared files
+brew install cask aerial            # screensaver
+brew install cask zoom				# zoom video conferencing
+brew install cask fork				# source control
+brew install cask sourcetree		# source control
+brew install cask istat-menus		# system monitoring app
+brew install cask textmate			# text editor
+brew install cask karabiner-elements	# keyboard customiser
+brew install cask google-drive		# client for google drive
+brew install cask visual-studio-code	# vscode
+brew install cask google-chrome		# web browser
+brew install cask alfred	# productivity app
 
 
 echo "Cleanup..."
