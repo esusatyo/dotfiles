@@ -7,6 +7,16 @@ $ git clone https://github.com/esusatyo/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles && ./install.sh
 ```
 
+Install manually:
+- https://matthewpalmer.net/rocket/
+- https://www.macgpt.com
+- https://karabiner-elements.pqrs.org
+
+
+Others:
+- Re-pair Bose Bluetooth headphone
+- Re-pair mouse and keyboard
+- Karabiner elements setting: 
 
 ## Dock and Menu bar
 
