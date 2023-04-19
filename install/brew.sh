@@ -52,6 +52,8 @@ brew install cask google-drive		# client for google drive
 brew install cask visual-studio-code	# vscode
 brew install cask google-chrome		# web browser
 brew install cask alfred	# productivity app
+brew install cask figma
+
 
 
 echo "Cleanup..."
