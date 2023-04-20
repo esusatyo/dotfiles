@@ -44,7 +44,6 @@ brew install cask dropbox           # shared files
 brew install cask aerial            # screensaver
 brew install cask zoom				# zoom video conferencing
 brew install cask fork				# source control
-brew install cask sourcetree		# source control
 brew install cask istat-menus		# system monitoring app
 brew install cask textmate			# text editor
 brew install cask karabiner-elements	# keyboard customiser
@@ -53,7 +52,7 @@ brew install cask visual-studio-code	# vscode
 brew install cask google-chrome		# web browser
 brew install cask alfred	# productivity app
 brew install cask figma
-
+brew install cask keyboardcleantool
 
 
 echo "Cleanup..."
