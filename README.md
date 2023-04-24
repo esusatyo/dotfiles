@@ -18,6 +18,8 @@ Others:
 - Re-pair Bose Bluetooth headphone
 - Re-pair mouse and keyboard
 - Karabiner elements setting: 
+- [Generate new SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Add SSH key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ## Dock and Menu bar
 
