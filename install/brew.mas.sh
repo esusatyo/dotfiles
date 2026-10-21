@@ -16,7 +16,6 @@ mas install 1436953057  # Ghostery Lite
 mas install 413965349   # Soulver 2
 mas install 1496833156  # Playgrounds
 mas install 407963104   # Pixelmator
-mas install 1482454543  # Twitter
 mas install 442160987   # Flycut
 mas install 411643860   # DaisyDisk
 mas install 497799835   # Xcode
@@ -25,9 +24,12 @@ mas install 409201541   # Pages
 mas install 1450874784  # Transporter
 mas install 409203825   # Numbers
 mas install 430255202   # Mactracker
-mas install 411643860   # Daisydisk
 mas install 504700302   # PDF Squeezer 3
+mas install 937984704   # Amphetamine
+mas install 1444636541  # Photomator
+mas install 953286746   # Darkroom
 
+# mas install 1482454543  # Twitter (delisted from the App Store)
 # mas install 909566003   # iHex
 # mas install 696977615   # Capo
 # mas install 1487333695  # Black Ink
