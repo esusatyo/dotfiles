@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DF=$HOME/dotfiles
+DF=${DF:-$HOME/dotfiles}
 
 echo "Creating symlinked config directories..."
 

@@ -4,9 +4,12 @@
 
 ```zsh
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-$ git clone https://github.com/esusatyo/dotfiles.git ~/dotfiles
-$ cd ~/dotfiles && ./install.sh
+$ git clone https://github.com/esusatyo/dotfiles.git ~/Projects/dotfiles
+$ ~/Projects/dotfiles/install.sh
 ```
+
+The scripts resolve their own location, so the repo can be cloned anywhere —
+`~/Projects/dotfiles` is the convention used here.
 
 Apps, packages, Mac App Store apps and VS Code extensions are installed
 from the [Brewfile](Brewfile) via `brew bundle`. Regenerate it from the

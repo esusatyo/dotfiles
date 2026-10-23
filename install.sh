@@ -2,10 +2,11 @@
 
 echo "installing dotfiles..."
 
-DF=$HOME/dotfiles
+# Resolve the repo's own location so the scripts work from any clone path
+DF="$(cd "$(dirname "$0")" && pwd)"
 
 echo "initializing submodule(s)"
-git submodule update --init --recursive --jobs 8
+git -C "$DF" submodule update --init --recursive --jobs 8
 
 # Install Homebrew or make sure it's up to date
 which -s brew
@@ -24,12 +25,12 @@ export HOMEBREW_NO_ANALYTICS=1
 echo "Installing packages, apps and VS Code extensions from Brewfile..."
 brew bundle --file="$DF/Brewfile"
 
-source ./install/link.sh
-source ./install/linkdirs.sh
-source ./install/osx.sh
-source ./install/iterm2.sh
-source ./install/dock.sh
-source ./install/fonts.sh
+source "$DF/install/link.sh"
+source "$DF/install/linkdirs.sh"
+source "$DF/install/osx.sh"
+source "$DF/install/iterm2.sh"
+source "$DF/install/dock.sh"
+source "$DF/install/fonts.sh"
 
 # configuration for zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
