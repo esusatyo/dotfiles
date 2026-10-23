@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DF=$HOME/dotfiles
+DF=${DF:-$HOME/dotfiles}
 
 echo "iTerm2: load preferences from the dotfiles repo"
 # Quit iTerm2 first so it doesn't overwrite the setting on exit

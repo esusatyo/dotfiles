@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DF=$HOME/dotfiles
+DF=${DF:-$HOME/dotfiles}
 
 echo "Creating symlinks..."
 links=$(find -H "$DF" -maxdepth 3 -name '*.symlink')
