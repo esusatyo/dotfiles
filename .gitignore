@@ -1,3 +1,4 @@
-vim/sessions
-
-vim/.netrwhist
+# Karabiner-Elements writes backups and assets into its config dir,
+# which is symlinked into this repo
+karabiner/automatic_backups/
+karabiner/assets/

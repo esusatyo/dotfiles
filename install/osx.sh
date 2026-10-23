@@ -21,5 +21,16 @@ defaults write com.apple.finder ShowPathbar -bool true
 echo "Finder: show Status bar"
 defaults write com.apple.finder ShowStatusBar -bool true
 
+echo "Finder: default to column view"
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+
+echo "Trackpad: enable tap to click"
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+
+echo "Dock: set icon size to 37"
+defaults write com.apple.dock tilesize -int 37
+defaults write com.apple.dock largesize -int 128
+
 echo "killing affected applications"
 for app in Finder Dock SystemUIServer; do killall "$app" >/dev/null 2>&1; done
