@@ -12,6 +12,7 @@ brew "automake"
 brew "awscli"
 brew "bison"
 brew "clang-format"   # format C/C++ and protobuf files
+brew "claude-code"    # Claude Code CLI
 brew "cmake"          # cross platform build system
 brew "ctags"          # index lang objects for vim
 brew "ffmpeg"         # audio/video processing
