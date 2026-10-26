@@ -29,7 +29,6 @@ source "$DF/install/link.sh"
 source "$DF/install/linkdirs.sh"
 source "$DF/install/osx.sh"
 source "$DF/install/iterm2.sh"
-source "$DF/install/dock.sh"
 source "$DF/install/fonts.sh"
 
 # configuration for zsh

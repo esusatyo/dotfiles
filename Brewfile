@@ -14,7 +14,6 @@ brew "bison"
 brew "clang-format"   # format C/C++ and protobuf files
 brew "cmake"          # cross platform build system
 brew "ctags"          # index lang objects for vim
-brew "dockutil"       # manage the Dock from the command line
 brew "ffmpeg"         # audio/video processing
 brew "fzf"            # fuzzy searching
 brew "gh"             # GitHub CLI
